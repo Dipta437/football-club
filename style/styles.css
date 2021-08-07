@@ -29,8 +29,29 @@ li{
 .button{
     font-size: 30px; 
     margin-right: 124px;
+    margin-left: 156px;
+    margin-top: 27px;
     color: white;
     background-color: #E02C6D;
     padding:10px 24px 10px 24px;
 }
-
+.football-live{
+    background-color: #2D25A0;
+    display: flex;
+}
+.copa-america h1{
+    font-size: 64px;
+    color: white;
+    margin-left: 156px;
+    margin-right: 206px;
+}
+.copa-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 206px;
+    margin-bottom: 86px;
+}
+.button img{
+    width: 40px;
+    margin-right: 30px;
+}
