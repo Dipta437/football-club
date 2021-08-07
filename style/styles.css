@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation style */
+nav{
+    background-color: #2D25A0;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav .right-nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+ul{
+    display: flex;
+    margin-left: 156px;
+}
+li{
+    list-style-type: none;
+    padding: 1em;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    font-size: 30px; 
+    margin-right: 124px;
+    color: white;
+    background-color: #E02C6D;
+    padding:10px 24px 10px 24px;
+}
+
