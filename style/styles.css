@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -50,6 +55,12 @@ li{
     height: 438px;
     margin-left: 206px;
     margin-bottom: 86px;
+    
+    
+}
+.copa-image:hover .kick-image{
+    transform: scale(1.5);
+    transition: transform 5s ease-in-out;
 }
 .button img{
     width: 40px;
@@ -57,6 +68,7 @@ li{
     display: inline-flexbox;
 }
 /* navigation style end */
+
 /* main section style */
 .key-players{
     display: grid;
@@ -77,4 +89,50 @@ li{
     padding: 10px;
     text-align: center;
     margin: 20px;
+}
+.highlights{
+    margin-top: 224px;
+    display: flex;
+}
+.highlights-text{
+    margin-left: 182px;
+    margin-right: 66px;
+}
+.highlights-text h1{
+    font-size: 48px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+    margin: 10px;
+}
+.highlight{
+    background-color: #E02C6D;
+    font-size: 30px;
+    color: white;
+    margin-top: 27px;
+    padding:10px 24px 10px 24px;
+}
+/* end main section style  */
+/* start footer style  */
+.copa-footer{
+    margin-top: 158px;
+}
+.footer-image img{
+    margin-left: 475px;
+    width: 483.87px;
+    height: 110px;
+    
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.socialmedia-footer img{
+    margin: 14px;
+    width: 32px;
+    height: 32px;
+}
+.copyright{
+    margin-left: 755px;
 }
